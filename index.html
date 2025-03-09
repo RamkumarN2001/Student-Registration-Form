@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+
+</head>
+
+<body>
+    <h2>Student Registration Form</h2>
+
+    <div class="main_container">
+        <form>
+            <h2 style="background-color: darkcyan; padding: 5px; width: 90%;">Student Details</h2>
+            <label>Name:<input id="name" type="text" placeholder="Enter Name"></label>
+
+            <label>Age:<input id="age" type="text" placeholder="Enter Age"></label>
+            <label>Gender:<select id="gender">
+                    <option></option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Others">Others</option>
+                </select></label>
+            <label>E-Mail:<input id="email" type="text" placeholder="Eg.Example@gmail.com"></label>
+
+            <label>Course:<input id="course" type="text" placeholder="Enter Course"></label>
+            <button class="Done" id="Done1" type="button">Submit</button>
+
+
+        </form>
+    </div>
+    <div class="container">
+        <h2>Registered Students</h2>
+        <table id="table">
+            <tr>
+                <th >Name</th>
+                <th >Age</th>
+                <th >Gender</th>
+                <th >Email</th>
+                <th >Course</th>
+                <th >Action</th>
+            </tr>
+        </table>
+    </div>
+
+<script src="student.js"></script>
+
+</html>
+
