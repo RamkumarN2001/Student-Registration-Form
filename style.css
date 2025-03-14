@@ -43,11 +43,17 @@ input {
     margin: 5px;
 }
 
-label {
+label,
+span {
     margin: 5px;
     display: inline;
     margin-left: 20px;
 
+}
+
+span {
+    color: red;
+    display: none;
 }
 
 select {
@@ -71,12 +77,12 @@ select {
 }
 
 
-.table{
+.table {
     width: 100%;
     height: auto;
 }
 
-.Details{
+.Details {
     display: flex;
     border: solid 1px black;
 }
@@ -84,25 +90,29 @@ select {
 .Done:hover {
     background: #218838;
 }
+
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
 }
-th, td {
+
+th,
+td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: center;
-    
+
 }
+
 th {
     background-color: darkcyan;
     color: white;
 }
-td{
+
+td {
     border: 1px solid black;
     background-color: white;
     padding: 8px;
     text-align: center;
 }
-

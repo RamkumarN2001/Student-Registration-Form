@@ -16,17 +16,20 @@
         <form>
             <h2 style="background-color: darkcyan; padding: 5px; width: 90%;">Student Details</h2>
             <label>Name:<input id="name" type="text" placeholder="Enter Name"></label>
-
-            <label>Age:<input id="age" type="text" placeholder="Enter Age"></label>
+            <span class="nameerror">Enter only letters in Name</span>
+            <label>Age:<input id="age" type="number" placeholder="Enter Age"></label>
+            <span class="ageerror">Enter the Valid Age</span>
             <label>Gender:<select id="gender">
                     <option></option>
                     <option value="Male">Male</option>
                     <option value="Female">Female</option>
                     <option value="Others">Others</option>
                 </select></label>
+                <span class="gendererror">Select the Gender</span>
             <label>E-Mail:<input id="email" type="text" placeholder="Eg.Example@gmail.com"></label>
-
+            <span class="emailerror">Enter proper email id</span>
             <label>Course:<input id="course" type="text" placeholder="Enter Course"></label>
+            <span class="courseerror">Enter the Course</span>
             <button class="Done" id="Done1" type="button">Submit</button>
 
 
